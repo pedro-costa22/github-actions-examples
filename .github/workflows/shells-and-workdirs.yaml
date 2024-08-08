@@ -4,6 +4,10 @@ run-name: Shells e Diretorios de Trabalho
 on:
   - push
 
+# defaults:
+#   run:
+#     shell: pwsh
+
 jobs: 
   display-workdir-info:
     runs-on: ubuntu-latest
